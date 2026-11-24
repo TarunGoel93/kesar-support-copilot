@@ -4,7 +4,7 @@
 **Models:** classification `openai/gpt-oss-safeguard-20b` (temp 0); reply agent `openai/gpt-oss-120b`.
 **Source of results:** the `Audit Log` and `Tickets` tabs of the results sheet (exports in `results/`): https://docs.google.com/spreadsheets/d/1IQMni8jXPtxRXs0vMgyNAGQFB_rACyZHRgPx5Q-XTiw/edit?usp=sharing
 
-> Note on method: the "Verdict" column is my own read of each output against the FAQ and the order data. I did not have an official answer key, so if the assignment provides expected outcomes, compare against them before submitting.
+
 
 ## Summary (counted from the Audit Log and Tickets tabs)
 
