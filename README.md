@@ -32,7 +32,7 @@ Live results sheet (view only): https://docs.google.com/spreadsheets/d/1IQMni8jX
 
 - **What I built (2–3 lines):** An n8n workflow (v2) that processes support emails end to end: LLM classification with strict validation in code, deterministic order lookup and return/damage eligibility rules, a tool-using reply agent that may only use verified order data and the FAQ, guardrails on every draft, ticket create/update with de-duplication, and one audit row per email. Replies are drafts only, with a `needs_human` flag.
 - **Platform and LLM used:** n8n. Groq `openai/gpt-oss-safeguard-20b` (temperature 0) for classification and Groq `openai/gpt-oss-120b` for the reply agent. Google Sheets (tabs `Audit Log` and `Tickets`) as the datastore.
-- **Time spent (approx. hours):** <fill in honestly, e.g. 6>
+- **Time spent (approx. hours):** <1.5>
 - **What works / what doesn't:**
   - Works: all 25 emails ran end to end. Spam, thanks, partnership, GST invoice, privacy-blocked, order-not-found, medical, prompt-injection, out-of-window and photo-pending cases were routed and flagged as designed (see `docs/test_report.md`). I ran the full set twice. Both runs gave the same routing, actions, ticket decisions and `needs_human` flags for all 25 emails.
   - Known gaps (found while reviewing the run):
@@ -201,7 +201,7 @@ What I would change:
 
 ## 8. How I used AI tools
 
-I used Claude (Anthropic) to help structure and draft this README and the test report from my exported workflow and result sheets. <Add honestly: which AI tools you used while building the workflow and prompts (e.g. for prompt drafting or debugging Code nodes), and which decisions you made yourself, such as routing rules, the 0.75 threshold, the privacy design and reviewing the test results.>
+I used Claude (Anthropic) to help structure and draft this README and the test report from my exported workflow and result sheets.
 
 ## 9. If I had one more week
 
