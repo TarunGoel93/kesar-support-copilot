@@ -45,7 +45,7 @@ Live results sheet (view only): https://docs.google.com/spreadsheets/d/1IQMni8jX
 
 ## 2. Architecture
 
-![workflow]([docs/screenshots/workflow.png](https://github.com/TarunGoel93/kesar-support-copilot/blob/main/screenshots/n8n.png))
+![workflow]([https://github.com/TarunGoel93/kesar-support-copilot/blob/main/screenshots/n8n.png])
 
 Flow: **trigger → normalize → loop (one email at a time) → classify → validate → route → (order lookup / product context / other handler) → draft agent → finalize + guardrails → ticket logic → audit log → wait → next email.**
 
